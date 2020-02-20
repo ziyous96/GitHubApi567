@@ -49,7 +49,7 @@ def main():
     repos = get_repo(userid)
     for repo in repos:
         commits = get_commits(userid, repo)
-        print(f"Repo: {repo} Number of commits: {commits}\n")
+        print(f"Repo: {repo} Number of commits: {commits}")
 
 
 if __name__ == '__main__':
