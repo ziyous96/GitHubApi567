@@ -44,6 +44,7 @@ class TestHW4a(unittest.TestCase):
         self.assertEqual(repos[2], "3")
         self.assertEqual(repos[3], "4")
         self.assertEqual(repos[4], "5")
+        self.assertEqual(len(repos), 5)
 
         # when repos = 0
         mockedReq.return_value.text = '[]'
